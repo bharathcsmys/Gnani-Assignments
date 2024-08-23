@@ -1,0 +1,56 @@
+version: "3.0"
+stories:
+  - story: greet user
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - story: user says goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: user thanks the bot
+    steps:
+      - intent: thank_you
+      - action: utter_thank_you
+
+  - story: user is in a good mood
+    steps:
+      - intent: mood_positive
+      - action: utter_mood_positive
+
+  - story: subscription info
+    steps:
+      - intent: faq_subscription
+      - action: utter_faq_subscription
+
+  - story: account help
+    steps:
+      - intent: faq_account
+      - action: utter_faq_account
+
+  - story: features info
+    steps:
+      - intent: faq_features
+      - action: utter_faq_features
+
+  - story: compatibility info
+    steps:
+      - intent: faq_compatibility
+      - action: utter_faq_compatibility
+
+  - story: playlist suggestions
+    steps:
+      - intent: playlist_recommendation
+      - action: utter_playlist_recommendation
+
+  - story: general information
+    steps:
+      - intent: faq_general
+      - action: utter_faq_general
+
+  - story: help
+    steps:
+      - intent: help
+      - action: utter_help

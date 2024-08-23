@@ -1,0 +1,56 @@
+version: "3.0"
+rules:
+  - rule: Handle greetings
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - rule: Handle goodbyes
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - rule: Handle thanks
+    steps:
+      - intent: thank_you
+      - action: utter_thank_you
+
+  - rule: Handle positive mood
+    steps:
+      - intent: mood_positive
+      - action: utter_mood_positive
+
+  - rule: Handle FAQ about subscriptions
+    steps:
+      - intent: faq_subscription
+      - action: utter_faq_subscription
+
+  - rule: Handle FAQ about account
+    steps:
+      - intent: faq_account
+      - action: utter_faq_account
+
+  - rule: Handle FAQ about features
+    steps:
+      - intent: faq_features
+      - action: utter_faq_features
+
+  - rule: Handle FAQ about compatibility
+    steps:
+      - intent: faq_compatibility
+      - action: utter_faq_compatibility
+
+  - rule: Handle playlist recommendations
+    steps:
+      - intent: playlist_recommendation
+      - action: utter_playlist_recommendation
+
+  - rule: Handle general information
+    steps:
+      - intent: faq_general
+      - action: utter_faq_general
+
+  - rule: Handle help requests
+    steps:
+      - intent: help
+      - action: utter_help

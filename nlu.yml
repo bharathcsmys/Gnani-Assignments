@@ -1,0 +1,43 @@
+version: "3.0"
+nlu:
+  - intent: faq_subscription
+    examples: |
+      - What are the subscription plans for Spotify?
+      - Tell me about Spotify Premium.
+      - How much does Spotify cost?
+
+  - intent: faq_account
+    examples: |
+      - How do I create a Spotify account?
+      - What should I do if I forgot my Spotify password?
+      - How can I change my email address on Spotify?
+
+  - intent: faq_features
+    examples: |
+      - What features does Spotify offer?
+      - Can I download songs for offline listening?
+      - What is Spotify Wrapped?
+
+  - intent: faq_compatibility
+    examples: |
+      - On which devices can I use Spotify?
+      - Is Spotify available on smart TVs?
+      - Can I use Spotify with my smart speaker?
+
+  - intent: playlist_recommendation
+    examples: |
+      - Can you suggest some playlists to listen to?
+      - What are some popular playlists on Spotify?
+      - I need playlist recommendations.
+
+  - intent: faq_general
+    examples: |
+      - What is Spotify?
+      - How do I contact Spotify support?
+      - Where can I find Spotify's terms of service?
+
+  - intent: help
+    examples: |
+      - I need help.
+      - Can you assist me with Spotify questions?
+      - What can you do for me?
